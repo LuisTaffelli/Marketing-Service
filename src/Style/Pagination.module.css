@@ -1,0 +1,49 @@
+.Pagination{
+	align-self: flex-start;
+	top: 12%;
+}
+
+.Pagination-Container {
+	padding: 0;
+	margin: 16px 4px;
+	height: 1.5rem;
+	width: 100%;
+	max-width: 16rem;
+	border-radius: 8px;
+	list-style: none;
+	display: flex;
+	background-color: rgba(69,117,178,.7);
+}
+
+
+.Pagination-item{
+	display: flex;
+	margin-left: 4px;
+	background-color: transparent;
+}
+
+.Pagination-item button{
+	font-size: 18px;
+	border-style: none;
+	border: 1px solid transparent;
+	color: white;
+	background-color: transparent;
+}
+
+
+.Pagination-item-active{
+	display: flex;
+	margin-left: 4px;
+	background-color: transparent;
+}
+
+.Pagination-item-active button{
+	font-size: 18px;
+	border-style: none;
+	border: 1px solid transparent;
+	height: 24px;
+	width: 24px;
+	border-radius: 100%;
+	color: white;
+	background-color: rgba(142,193,109);
+}

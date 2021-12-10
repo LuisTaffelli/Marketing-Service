@@ -1,0 +1,29 @@
+.list {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  overflow-y: auto;
+  height: 25vh;
+  width: 100%;
+  padding: 1em;
+  color: black;
+  font-weight: 600;
+  background-color: rgba(255,255,255,.7);
+  box-shadow: 0 2px 2px #0001;
+  border-radius: 0 0 1em 1em;
+}
+
+.Address {
+
+  display: flex;
+  align-items: flex-start;
+  padding: 0.5em;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(201, 201, 201);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(56, 56, 56);
+}

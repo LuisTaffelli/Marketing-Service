@@ -1,0 +1,71 @@
+.Card-Container {
+    position: relative;
+    display: flex;
+    border-width: 0.05rem;
+    border-radius: 10%;
+    background-color: rgba(69,117,178,.7);
+    flex: 1 0 47%;
+    width: 23rem;
+    height: 17rem;
+    margin: 0.75rem 0.75rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.54), 0 8px 24px 0 rgba(0,0,0,0.39);
+    flex-direction: row;
+    max-width: 28rem;
+}
+
+
+.Card-Column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+}
+
+.Card-Column-inner{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.Card-Column-inner-bottom{
+    display: flex;
+    max-height: 240px;
+    flex-direction: column;
+    padding: 0px 8px;
+}
+
+.Card-Column-inner a{
+    color: black;
+}
+
+.inner-center{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Card-Container img{
+    border-radius: 24px;
+    object-fit: cover;
+    position: relative;
+    object-position: top;
+    max-height: 100%;
+    max-width: 60%;
+}
+
+
+.left-corner{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    height: 40px;
+    width: 60px;
+    left: 3px;
+    top: 3px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

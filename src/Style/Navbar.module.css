@@ -1,0 +1,53 @@
+.Container{
+	background-color: rgba(125,144,152,.9);
+	position: relative;
+	padding-top: 16px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 1;
+}
+
+.Container-home{
+	position: absolute;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 1;
+}
+
+
+
+
+.Container div>a, .Container-home div>a{
+	text-decoration: none;
+	color: white;
+	margin: 4px 16px; 
+
+}
+
+.Container div>a:hover, .Container-home div>a:hover{
+	text-decoration: underline;
+	color: white;
+	margin: 4px 16px; 
+}
+
+.Container div>h4, .Container-home div>h4{
+	color: white;
+	margin: 4px 16px; 
+}
+
+.Container a, .Container-home a{
+	margin-left: 16px;
+}
+
+.Title{
+	color: white;
+	margin-left: 48px;
+}
+
+.Content {
+	display: flex;
+	align-items: center;
+}

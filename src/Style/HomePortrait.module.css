@@ -1,0 +1,94 @@
+.Portrait-container{
+	background-color: rgba(254,184,85, .2);
+}
+
+.Home-About{
+	position: relative;
+	margin: 60px 15%;
+	height: 500px;
+  	max-width: 50%;
+  	display: flex;
+  	flex-direction: column;
+  	flex-wrap: wrap;
+}
+
+
+.Home-About img{
+	margin-right: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+	width: 320px;
+	height: 320px;
+}
+
+
+.Home-About-row{
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	width: 100%;
+  	height: 100%;
+}
+
+.Home-About-column{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	width: 100%;
+  	height: 100%;
+}
+
+.Home-About-column-left{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 75%;
+	height: 100%;
+}
+
+.Home-About-column-right{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 25%;
+	height: 100%;
+}
+
+.Home-About-column-left-end{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 40%;
+	height: 100%;
+}
+
+.Home-About-column-right-end{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 75%;
+	height: 100%;
+}
+
+
+
+.Home-About a{
+	text-decoration: none;
+	color: black;
+}
+
+.Home-About-column h3, h4{
+	margin: 32px 0px;
+	max-height: 400px;
+
+}
+
+.Button-right{
+	right: 0%;
+	align-self: flex-end;
+}
+
+.Button-left{
+	align-self: flex-start;
+}
